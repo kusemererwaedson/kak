@@ -1,0 +1,83 @@
+
+body{
+  text-decoration: none;
+}
+p{
+  font-size: 17px !important;
+}
+.far-away{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .achievements{
+    width: 300px;
+    background-color: rgb(55, 201, 36);
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  .center-content{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .achievements h3{
+    font-weight: bolder;
+  }
+  @media screen and (max-width:600px) {
+    .far-away{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+        width: auto;
+        margin-left: 30px;
+        /* width: 100px */
+      
+      }
+      .how-we-do-it{
+        display: flex;
+        grid-template-columns: repeat(1,1fr);
+        /* background-color: #fff; */
+        gap: 0rem;
+      }
+  }
+  @media screen and (max-width:1024px) {
+    .far-away{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+        width: 100px;
+        /* margin-left: 30px; */
+        /* width: 100px */
+      
+      }
+  }
+  /* ====== HOW WE DO IT ====== */
+  .how-we-do-it{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: #fff; */
+    gap: 1rem;
+  }
+  .how-we-do-it div{
+    /* background-color: aqua; */
+    padding: 30px;
+    /* margin: 10px; */
+  }
+  .how-min-section{
+    margin-bottom: 10px;
+    background-color: rgb(161, 238, 193);
+  }
+
+  .business-about{
+    text-align: justify;
+    margin: 10%;
+  }
+  .business-about h3{
+    text-decoration: none;
+  }
+  
